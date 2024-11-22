@@ -1,0 +1,6 @@
+projectKey=Test-project
+serverUrl=http://20.255.56.160:9000
+serverVersion=10.6.0.92116
+dashboardUrl=http://20.255.56.160:9000/dashboard?id=Test-project
+ceTaskId=26a99685-7bf8-4460-87c8-dd24e6013aad
+ceTaskUrl=http://20.255.56.160:9000/api/ce/task?id=26a99685-7bf8-4460-87c8-dd24e6013aad

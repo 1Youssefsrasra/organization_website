@@ -1,0 +1,41 @@
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nouveau message depuis le site web</title>
+    <style>
+      body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0;
+      padding: 0; background-color: #f2f2f2; } .container { max-width: 600px;
+      margin: 20px auto; padding: 20px; border-radius: 10px; background-color:
+      #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); } .header { text-align:
+      center; margin-bottom: 30px; } .header h1 { color: #333; font-size: 24px;
+      margin: 0; } .message-content { border-top: 2px solid #333; padding-top:
+      20px; } .message-details { margin-bottom: 20px; } .message-details p {
+      margin: 10px 0; } .message-details strong { font-weight: bold; }
+      .message-body { padding: 20px; background-color: #f9f9f9; border-radius:
+      5px; }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Nouveau message depuis le site web</h1>
+      </div>
+
+      <div class="message-content">
+        <div class="message-details">
+          <p><strong>Nom :</strong> {{fullname}}</p>
+          <p><strong>Email :</strong> {{email}}</p>
+        </div>
+
+        <div class="message-body">
+          <p><strong>Message :</strong></p>
+          <p>{{message}}</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
